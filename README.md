@@ -1,2 +1,0 @@
-# NiceCalc
-Primitiv lommeregner
