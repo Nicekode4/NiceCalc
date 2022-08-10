@@ -1,0 +1,16 @@
+fieldset {
+  width: 20%;
+}
+fieldset form #numberOne {
+  width: 100%;
+}
+fieldset form #numberTwo {
+  width: 100%;
+}
+fieldset form #bTn {
+  display: block;
+  width: 100%;
+}
+fieldset form p {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

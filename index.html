@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Lommeregner</title>
+</head>
+<body>
+    <fieldset id="fieldset">
+        <form action="">
+            <input id="numberOne" type="number">
+            <p id="shownOperator">+</p>
+            <input id="numberTwo" type="number">
+            <button type="button" id="bTn">=</button>
+        </form>
+        <select name="operator" id="operator" onchange="change()">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        </select>
+    </fieldset>
+    <div id="myDiv" style="position: fixed; display: none; z-index: -99; width: 100%; height: 100%">
+        <iframe
+        id="myIframe"
+          frameborder="0"
+          height="100%"
+          width="100%"
+        autoplay;
+        >
+        </iframe>
+      </div>
+      
+</body>
+</html>
