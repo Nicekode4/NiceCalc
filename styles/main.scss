@@ -1,18 +1,62 @@
+html{
+    background-image: url('/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 fieldset{
-    width: 20%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 30%;
+    margin-left: 35vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
     form{
+        font-size: 30px;
         #numberOne{
+            margin-top: 1vh;
             width: 100%;
+            font-size: 30px;
+            background-color: rgba(255, 255, 255, 0);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: white;
         }
         #numberTwo{
             width: 100%;
+            font-size: 30px;
+            background-color: rgba(255, 255, 255, 0);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: white;
         }
      #bTn{
     display: block;
-    width: 100%;
+    width: 50%;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    font-size: 30px;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    :hover{
+        color: white;
+    }
 }  
 p{
     text-align: center;
+    font-size: 30px;
+    margin-top: 8vh;
+    font-weight: bolder;
+
 } 
+    }
+    select{
+        font-size: 30px;
     }
 }

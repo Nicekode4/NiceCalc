@@ -19,7 +19,6 @@ function udregn() {
       document.querySelector('#fieldset').style.display = "block"
       document.querySelector('#myDiv').style.display = "none"
       document.querySelector('#myIframe').src = ""
-      document.body.style.backgroundColor = "white"
       clearInterval(interval)
     }, 30000);
   }
