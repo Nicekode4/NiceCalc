@@ -10,17 +10,36 @@
 </head>
 <body>
     <fieldset id="fieldset">
-        <form action="">
-            <input id="numberOne" type="number">
-            <p id="shownOperator">+</p>
-            <button type="button" id="bTn">=</button>
+        <form id="formOne" action="">
+            <input id="numberOne" type="text">
+            <button type="button" id="bTn" onclick="udregn()">=</button>
+            <p id="result">0</p>
         </form>
-        <select name="operator" id="operator" onchange="change()">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="*">*</option>
-        <option value="/">/</option>
-        </select>
+    </fieldset>
+
+    <fieldset id="numPad">
+        <form id="formTwo" action="">
+            <button type="button" onclick="numberOne.value = ''">AC</button>
+            <button type="button" onclick="add(this)">00</button>
+            <button type="button" onclick="add(this)">(</button>
+            <button type="button" onclick="add(this)">)</button>
+            <button type="button" onclick="add(this)">1</button>
+            <button type="button" onclick="add(this)">2</button>
+            <button type="button" onclick="add(this)">3</button>
+            <button type="button" onclick="add(this)">+</button>
+            <button type="button" onclick="add(this)">4</button>
+            <button type="button" onclick="add(this)">5</button>
+            <button type="button" onclick="add(this)">6</button>
+            <button type="button" onclick="add(this)">-</button>
+            <button type="button" onclick="add(this)">7</button>
+            <button type="button" onclick="add(this)">8</button>
+            <button type="button" onclick="add(this)">9</button>
+            <button type="button" onclick="add(this)">/</button>
+            <button type="button" onclick="udregn()">=</button>
+            <button type="button" onclick="add(this)">,</button>
+            <button type="button" onclick="add(this)">.</button>
+            <button type="button" onclick="add(this)">*</button>
+        </form>
     </fieldset>
 </body>
 </html>

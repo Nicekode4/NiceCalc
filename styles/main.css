@@ -12,10 +12,12 @@ fieldset {
   margin-top: 5vh;
   margin-bottom: 10vh;
 }
-fieldset form {
+
+fieldset #formOne {
   font-size: 30px;
 }
-fieldset form #numberOne {
+
+fieldset #formOne #numberOne {
   margin-top: 1vh;
   width: 100%;
   font-size: 30px;
@@ -25,16 +27,8 @@ fieldset form #numberOne {
   border-right: none;
   color: white;
 }
-fieldset form #numberTwo {
-  width: 100%;
-  font-size: 30px;
-  background-color: rgba(255, 255, 255, 0);
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  color: white;
-}
-fieldset form #bTn {
+
+fieldset #formOne #bTn {
   display: block;
   width: 50%;
   margin-top: 3vh;
@@ -45,15 +39,30 @@ fieldset form #bTn {
   background-color: rgba(255, 255, 255, 0);
   color: white;
 }
-fieldset form #bTn :hover {
+
+fieldset #formOne #bTn :hover {
   color: white;
 }
-fieldset form p {
+
+fieldset #formOne p {
   text-align: center;
   font-size: 30px;
   margin-top: 8vh;
   font-weight: bolder;
 }
+
 fieldset select {
   font-size: 30px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+fieldset #formTwo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+fieldset #formTwo button {
+  font-size: 25px;
+}
+/*# sourceMappingURL=main.css.map */
